@@ -11,12 +11,13 @@
 }
 
 /*
- *  plaid
+ *  plaid :- inspired by Dead Men Don't Wear Plaid poster
  */
 .plaid {
     font-family: 'Gill Sans', 'Arial';
     text-shadow: 0 1px 1px #000;
 
+    background-color: #999;
     background: -webkit-gradient(radial, 165 40%, 80, 165 40%, 120, from(#fff), to(#888));
 
     -webkit-transform: rotate(-1deg); 

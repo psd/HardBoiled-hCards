@@ -16,6 +16,7 @@
 .retro {
     color: #333;
     background-image: url('card.png');
+    background-color: #FDC;
     font-family: 'Gill Sans', 'Arial';
     text-shadow: 0 1px 1px #000;
 
