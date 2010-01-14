@@ -1,4 +1,16 @@
 /*
+ * @vendor:     Dieter Steffmann
+ * @vendorurl:  http://www.steffmann.de
+ * @licenseurl: http://www.fontsquirrel.com/license/Marketing-Script
+ *
+ */
+@font-face {
+    font-family: 'MarketingScriptRegular';
+    src: url('MarketingScript.eot');
+    src: local('Marketing Script Regular'), local('MarketingScript'), url('MarketingScript.ttf') format('truetype');
+}
+
+/*
  *  campion :- 1900's Margery Allingham book inspired business card
  */
 .campion {
