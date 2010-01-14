@@ -1,0 +1,58 @@
+/*
+ * @vendor:     Dieter Steffmann
+ * @vendorurl:  http://www.steffmann.de
+ * @licenseurl: http://www.fontsquirrel.com/license/Marketing-Script
+ */
+@font-face {
+    font-family: 'MarketingScriptRegular';
+    src: url('MarketingScript.eot');
+    src: local('Marketing Script Regular'), local('MarketingScript'), url('MarketingScript.ttf') format('truetype');
+}
+
+/*
+ *  retro :- 1940's business card
+ *  background crop of http://www.flickr.com/photos/playingwithpsp/2558159491/
+ */
+.retro {
+    color: #333;
+    background-image: url('card.png');
+    font-family: 'Gill Sans', 'Arial';
+    text-shadow: 0 1px 1px #000;
+
+    -webkit-transform: rotate(6deg); 
+    -moz-transform: rotate(6deg); 
+    -o-transform: rotate(6deg); 
+    transform: rotate(6deg); 
+}
+
+.retro .org {
+    margin: 5mm 7mm;
+    font-family: 'MarketingScriptRegular';
+    font-size: 2.2em;
+    background-image: url('mag.png');
+    background-repeat: no-repeat;
+    background-position: 25mm 12mm;
+    height: 31mm;
+}
+
+.retro .fn,
+.retro .tel,
+.retro .adr {
+    margin: 0;
+    padding: 0;
+}
+
+.retro .fn,
+.retro .tel {
+    width: 40mm;
+    float: left;
+    padding-left: 6mm;
+    text-align: left;
+}
+
+.retro .adr {
+    width: 30mm;
+    float: right;
+    padding-right: 6mm;
+    text-align: right;
+}

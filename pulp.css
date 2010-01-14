@@ -1,0 +1,40 @@
+/*
+ * @vendor:     Walter Velez
+ * @vendorurl:  http://www.waltervelezart.com/
+ * @licenseurl: http://www.fontsquirrel.com/license/True-Crimes
+ */
+@font-face {
+    font-family: 'TrueCrimesRegular';
+    src: url('true-crimes.eot');
+    src: local('True Crimes Regular'), local('TrueCrimes'), url('true-crimes.ttf') format('truetype');
+}
+
+/*
+ *  pulp :- pulp fiction book cover
+ *  background image is a 1920's Russian book cover:
+ *  http://www.typogabor.com/graphisme-russe/pages/GraphRusse_01.html
+ */
+.pulp {
+    font-family: 'American Typewriter','Serif';
+    color: #e8e8e8;
+    background-image: url('russe.jpg');
+
+    -webkit-transform: rotate(0deg); 
+    -moz-transform: rotate(0deg); 
+    -o-transform: rotate(0deg); 
+    transform: rotate(0deg); 
+}
+
+.pulp .fn {
+    margin: 5mm 7mm;
+    font-family: 'TrueCrimesRegular';
+    font-size: 3em;
+    color: red;
+    text-shadow: 3px 3px 3px yellow;
+}
+
+.pulp .tel {
+    margin: 0 17mm;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+}

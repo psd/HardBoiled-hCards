@@ -1,0 +1,63 @@
+/*
+ * @vendor:     Nick's Fonts
+ * @vendorurl:  http://www.nicksfonts.com
+ * @licenseurl: http://www.fontsquirrel.com/license/Airstream
+ */
+@font-face {
+    font-family: 'AirstreamRegular';
+    src: url('Airstream.eot');
+    src: local('Airstream Regular'), local('Airstream'), url('Airstream.ttf') format('truetype');
+}
+
+/*
+ *  airstream :- 1940's business card
+ *  background crop of http://www.flickr.com/photos/playingwithpsp/2558159491/
+ */
+.airstream {
+    background-image: url('card.png');
+    -webkit-mask-image: url('grunge-mask.png');
+
+    font-family: 'Times';
+    color: #181818;
+    text-shadow: 1px 1px 1px #888;
+
+    -webkit-transform: rotate(2deg); 
+    -moz-transform: rotate(2deg); 
+    transform: rotate(2deg); 
+}
+
+.airstream .org {
+    margin: 20mm 0;
+    width: 100%;
+    font-family: 'Century Gothic';
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 2px 2px #888;
+}
+
+.airstream .fn,
+.airstream .tel,
+.airstream .adr {
+    margin: 0;
+    padding: 0;
+}
+
+.airstream .fn,
+.airstream .adr {
+    padding-top: 5mm;
+}
+
+.airstream .fn,
+.airstream .tel {
+    width: 40mm;
+    float: left;
+    padding-left: 6mm;
+    text-align: left;
+}
+
+.airstream .adr {
+    width: 30mm;
+    float: right;
+    padding-right: 6mm;
+    text-align: right;
+}

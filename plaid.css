@@ -1,0 +1,44 @@
+/*
+ * @vendor:     Nick's Fonts
+ * @vendorurl:  http://www.nicksfonts.com
+ * @licenseurl: http://www.fontsquirrel.com/license/SeasideResortNF
+ */
+
+@font-face {
+    font-family: 'SeasideResortNFRegular';
+    src: url('SEASRN__.eot');
+    src: local('SeasideResortNF Regular'), local('SeasideResortNF'), url('SEASRN__.TTF') format('truetype');
+}
+
+/*
+ *  plaid
+ */
+.plaid {
+    font-family: 'Gill Sans', 'Arial';
+    text-shadow: 0 1px 1px #000;
+
+    background: -webkit-gradient(radial, 165 40%, 80, 165 40%, 120, from(#fff), to(#888));
+
+    -webkit-transform: rotate(-1deg); 
+    -moz-transform: rotate(-1deg); 
+    -o-transform: rotate(-1deg); 
+    transform: rotate(-1deg); 
+}
+
+.plaid .fn {
+    margin: 0;
+    padding: 5mm;
+    font-family: 'SeasideResortNFRegular';
+    font-size: 2em;
+    color: #333;
+    width: 100%;
+    height: 22.5mm;
+}
+
+.plaid .adr {
+    width: 30mm;
+    float: right;
+    padding-top: 5mm;
+    padding-right: 5mm;
+    text-align: right;
+}

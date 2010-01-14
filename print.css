@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+
+}
+.vcard {
+    margin: 1em;
+    border: 1px solid #181818;
+    margin: 1em;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
+
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}

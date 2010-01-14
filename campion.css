@@ -1,0 +1,35 @@
+/*
+ *  campion :- 1900's Margery Allingham book inspired business card
+ */
+.campion {
+    color: #FDE8F0;
+    background-color: #5D9B45;
+    font-family: 'Gill Sans', 'Arial';
+    text-shadow: 0 1px 1px #000;
+
+    -webkit-transform: rotate(0deg); 
+    -moz-transform: rotate(0deg); 
+    -o-transform: rotate(0deg); 
+    transform: rotate(0deg); 
+}
+
+.campion .fn {
+    margin: 0;
+    padding: 5mm;
+    font-family: 'MarketingScriptRegular';
+    font-size: 2.2em;
+    color: #333;
+    background-color: #FDE8F0;
+    background-repeat: no-repeat;
+    background-position: 25mm 12mm;
+    width: 100%;
+    height: 22.5mm;
+}
+
+.campion .adr {
+    width: 30mm;
+    float: right;
+    padding-top: 5mm;
+    padding-right: 5mm;
+    text-align: right;
+}
